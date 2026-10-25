@@ -1,0 +1,137 @@
+{
+  "schemaVersion": 1,
+  "name": "Homelab essentials",
+  "version": "1.0.0",
+  "icons": [
+    {
+      "id": "database",
+      "name": "Database",
+      "file": "icons/database.png",
+      "sha256": "e89f9b29df2f2f1346b6a512ad04b67e7be6a85c3e4d124a17b0305f0c057a1c",
+      "match": [
+        "database",
+        "postgres",
+        "postgresql",
+        "mariadb",
+        "mysql"
+      ]
+    },
+    {
+      "id": "proxy",
+      "name": "Reverse proxy",
+      "file": "icons/proxy.png",
+      "sha256": "eda5c72f2c760e7088fe36b0174b5228c7accf6f89c7b4fa0147c4f70614e618",
+      "match": [
+        "reverse proxy",
+        "traefik",
+        "caddy",
+        "nginx"
+      ]
+    },
+    {
+      "id": "storage",
+      "name": "Storage",
+      "file": "icons/storage.png",
+      "sha256": "1fbc27ad54ffe5bbc56d7fbc397f7726f8dceb649c6402646d9edce890392c1d",
+      "match": [
+        "storage",
+        "minio",
+        "samba"
+      ]
+    },
+    {
+      "id": "identity",
+      "name": "Identity",
+      "file": "icons/identity.png",
+      "sha256": "b58535b455e93a8adf30a9ab531dd9bd02ba4b061198a3f68180e3b417589cf3",
+      "match": [
+        "identity",
+        "authentik",
+        "keycloak",
+        "authelia"
+      ]
+    },
+    {
+      "id": "container",
+      "name": "Container",
+      "file": "icons/container.png",
+      "sha256": "6aa87fda5e7aabf8b6ee943848086eb82544b662d69c864e50262f5291cb4dec",
+      "match": [
+        "container",
+        "portainer"
+      ]
+    },
+    {
+      "id": "virtual-machine",
+      "name": "Virtual machine",
+      "file": "icons/virtual-machine.png",
+      "sha256": "d4f4d574ee5b136df5f3873a1a45b47549b9972c4ba0403cd9a94bcbcb038489",
+      "match": [
+        "virtual machine",
+        "vm"
+      ]
+    },
+    {
+      "id": "home",
+      "name": "Home automation",
+      "file": "icons/home.png",
+      "sha256": "2e1a4040a34f74ada6f10972c8e47bfc696f36818275b0464f6c238c3dd81595",
+      "match": [
+        "home assistant",
+        "homeassistant"
+      ]
+    },
+    {
+      "id": "backup",
+      "name": "Backup",
+      "file": "icons/backup.png",
+      "sha256": "2444dfca6c27a71ba295472b3e9d3c7ac5a27a351ef23f43acbba42082e167f3",
+      "match": [
+        "backup",
+        "restic",
+        "borg"
+      ]
+    },
+    {
+      "id": "network",
+      "name": "Network",
+      "file": "icons/network.png",
+      "sha256": "f63dddfed99cef71e975cda6adc981bb27eb7b9724340e5153f489d84332e0a4",
+      "match": [
+        "unifi",
+        "network"
+      ]
+    },
+    {
+      "id": "media",
+      "name": "Media",
+      "file": "icons/media.png",
+      "sha256": "b60da5558836dbae75864c0b1b519b1feae8bd9150ead07f926ff4d12d3f8830",
+      "match": [
+        "jellyfin",
+        "plex",
+        "media"
+      ]
+    },
+    {
+      "id": "cache",
+      "name": "Cache",
+      "file": "icons/cache.png",
+      "sha256": "489f8ee99229498739a4b30692a1171e0d4ca896857f442efd2f00427e81c710",
+      "match": [
+        "cache",
+        "redis",
+        "valkey"
+      ]
+    },
+    {
+      "id": "service",
+      "name": "Application",
+      "file": "icons/service.png",
+      "sha256": "ec9c4e1c778c6ef6f65bf0b6c65ddc5677f436eeca108f7498cb15d2c37f10a7",
+      "match": [
+        "application"
+      ]
+    }
+  ]
+}
